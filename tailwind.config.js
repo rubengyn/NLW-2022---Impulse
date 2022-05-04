@@ -1,14 +1,20 @@
-// tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{html,tsx}"],
+  content: ["./src/**/*.tsx"],
   theme: {
     extend: {
       colors: {
         brand: {
-          500: '#8257e6',
+          300: "#996DFF",
+          500: "#8257e6",
         }
       }
     },
+    // borderRadius: {
+    //   md: '4px'
+    // }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    //require('tailwind-scrollbar'),
+  ],
 }

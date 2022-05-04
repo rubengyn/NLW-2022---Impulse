@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    /*09090A*/
+    @apply bg-[#555555] text-zinc-100;
+}
